@@ -1,0 +1,10 @@
+# Zadanie 1
+
+paliwo = 100
+paliwo_zużyte_na_s = 10
+czas = 0
+
+while paliwo > 0:
+    print(f"Pozostałe paliwo: {paliwo} litrów+")
+    paliwo -= paliwo_zużyte_na_s
+    czas += 1
